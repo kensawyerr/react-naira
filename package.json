@@ -1,0 +1,36 @@
+{
+  "name": "react-naira",
+  "version": "1.2.0",
+  "description": "A react component to format numbers into the Nigerian Naira currency format with the Naira symbol as a prefix.",
+  "main": "naira.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"build": "./node_modules/.bin/babel src --out-file naira.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sawyerrken/react-naira.git"
+  },
+  "keywords": [
+    "naira",
+    "currency",
+    "react",
+    "money"
+  ],
+  "author": "Sawyerr Ken (sawyerrken@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sawyerrken/react-naira/issues"
+  },
+  "homepage": "https://github.com/sawyerrken/react-naira#readme",
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0"
+  }
+}
